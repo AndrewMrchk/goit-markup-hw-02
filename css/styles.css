@@ -73,6 +73,10 @@ img {
   color: var(--link-title-color);
 }
 
+.site-navigation-link.current {
+  color: var(--hover-logo-color);
+}
+
 .site-navigation-link:hover,
 .site-navigation-link:focus {
   color: var(--hover-logo-color);
