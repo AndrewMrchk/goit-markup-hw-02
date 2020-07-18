@@ -138,6 +138,13 @@ h1 {
   width: 270px;
 }
 
+.advantage-icon-wrapper {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: var(--section-icon-background-color);
+}
+
 .advantage-list-item p {
   font-weight: 400;
   font-size: 14px;
