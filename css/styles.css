@@ -48,6 +48,10 @@ body,
   font-style: normal;
 }
 
+.header {
+  border: 1px solid #ececec;
+}
+
 .our-logotype {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -277,4 +281,32 @@ input {
   display: flex;
   justify-content: space-around;
   justify-items: center;
+}
+
+/* Section project */
+
+.project-hover-box {
+  display: none;
+}
+
+.project-list-item {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--link-title-color);
+}
+
+.project-category {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--text-subtitle-color);
 }
