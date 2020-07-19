@@ -18,13 +18,15 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <header class="conteiner">
+  <body class="desktop">
+    <header class="container header-wrapper">
       <nav class="site-navigation">
-        <a class="our-logotype" href="./index.html">
-          <span class="logo-part">Web</span>
-          Studio
-        </a>
+        <div class="our-logotype">
+          <a class="our-logotype-link" href="./index.html">
+            <span class="logo-part">Web</span>
+            Studio
+          </a>
+        </div>
         <ul class="site-navigation-list list">
           <li class="site-navigation-list-item">
             <a class="site-navigation-link current" href="#">
@@ -45,11 +47,15 @@
       </nav>
       <address class="contacts">
         <a class="contacts-item" href="mailto:info@devstudio.com">
-          <img src="./img/icon/email.svg" alt="letter" />
+          <img class="contacts-icon" src="./img/icon/email.svg" alt="letter" />
           info@devstudio.com
         </a>
         <a class="contacts-item" href="tel:+380961111111">
-          <img src="./img/icon/smartphone.svg" alt="telephone" />
+          <img
+            class="contacts-icon"
+            src="./img/icon/smartphone.svg"
+            alt="telephone"
+          />
           +38 096 111 11 11
         </a>
       </address>
@@ -68,7 +74,7 @@
         </h1>
         <button class="order-button">Заказать услугу</button>
       </div>
-      <section class="advantages conteiner">
+      <section class="advantages container">
         <h2 class="vis-hidden">Наши преимущества</h2>
         <ul class="advantage-list list">
           <li class="advantage-list-item">
@@ -113,7 +119,7 @@
           </li>
         </ul>
       </section>
-      <section class="our-business conteiner">
+      <section class="our-business container">
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="employment-list list">
           <li class="employment-list-item">
@@ -145,7 +151,7 @@
           </li>
         </ul>
       </section>
-      <section class="our-team conteiner">
+      <section class="our-team container">
         <h2>Наша команда</h2>
         <ul class="team-list list">
           <li class="team-list-item">
@@ -314,7 +320,7 @@
           </li>
         </ul>
       </section>
-      <section class="clients conteiner">
+      <section class="clients container">
         <h3 class="permanent-clients">Постоянные клиенты</h3>
         <ul class="clients-list list">
           <li class="clients-list-item">
@@ -354,7 +360,7 @@
         </ul>
       </section>
     </main>
-    <footer class="conteiner">
+    <footer class="container">
       <div class="footer">
         <div class="our-contackts wrapper">
           <div class="logotype">

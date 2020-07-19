@@ -25,7 +25,10 @@ img {
   padding: 0px;
 }
 
-.conteiner {
+.desktop {
+  width: 1600px;
+}
+.container {
   display: block;
   width: 1170px;
   margin: 0px auto;
@@ -42,17 +45,25 @@ img {
   visibility: hidden;
 }
 
-body,
-.contacts {
+body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  /* width: 1600px; */
 }
 
-.header {
-  border: 1px solid #ececec;
+.header-wrapper {
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  justify-content: space-between;
 }
 
 .our-logotype {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.our-logotype-link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -68,6 +79,20 @@ body,
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+}
+.site-navigation {
+  display: flex;
+}
+
+.site-navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 294px;
+}
+
+.site-navigation-list-item {
+  padding: 31px 0px;
 }
 
 .site-navigation-link {
@@ -86,6 +111,26 @@ body,
 .site-navigation-link:hover,
 .site-navigation-link:focus {
   color: var(--hover-logo-color);
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-item {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  display: flex;
+}
+
+.contacts-item:first-child {
+  margin-right: 30px;
+}
+
+.contacts-icon {
+  padding-right: 10px;
 }
 
 .contacts-item:hover,
